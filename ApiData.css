@@ -1,0 +1,34 @@
+form {
+    background-color:white;
+    padding: 50px;
+    border-radius: 4%;
+    box-shadow: 5px 5px 14px #23080875;
+    width: 400px;
+    margin-top: 50px;
+}
+
+h5{
+    opacity: 40%;
+}
+
+.Home{
+    height: 100px;
+}
+
+.table{
+    margin-top: 100px;
+}
+.button1,.button2{
+    opacity: 50%;
+}
+.button1:hover,.button2:hover{
+    opacity: 80%;
+
+}
+
+.home{
+    justify-content: center;
+    display: flex;
+    
+}
+
