@@ -58,13 +58,13 @@ const Read = () => {
             })
               .map((item, i) =>
 
-                <tr key="i">
+                <tr>
                      
                   <td>{i+1}</td>
                   <td>{item.username}</td>
                   <td>{item.email}</td>
                   <td>{item.password}</td>
-                  <td><Link to="/update"><Button className='btn btn-warning ' style={{ height: "40px", color: "white" }} onClick={() => setId(item.id, item.username, item.email, item.password)}>Update</Button> </Link></td>
+                  <td><Link to="/update"><Button className='btn btn-warning' style={{ height: "40px", color: "white" }} onClick={() => setId(item.id, item.username, item.email, item.password)}>Update</Button> </Link></td>
                   <td><Button className='btn btn-danger' style={{ height: "40px" }} onClick={() => { onDelete(item.id, item.username) }}>Delete</Button></td>
                 </tr>
               )}
